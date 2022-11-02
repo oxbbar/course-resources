@@ -1,4 +1,4 @@
-# Online Courses and General Learning
+# Online Resources, General Learning and Software Setup
 
 - [Broad Documentation and Tutorials](#broad-resources-and-guides)
   - Websites
