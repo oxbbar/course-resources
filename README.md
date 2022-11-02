@@ -142,7 +142,7 @@ The software I'm using and how I set up to kick it all off.
         - `ssh-add ~/.ssh/testfilename` to add the SSH key file above to the SSH agent list.
         - `clip < ~/.ssh/testfilename.pub` to copy the SSH key to the clipboard, then add it as a new SSH key in https://github.com/settings/keys.
         - `ssh -T git@github.com` to authenticate with GitHub (check key fingerprint matches with https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints)
-        - `git remote set-url origin git@github.com/<Username>:<Project>.git
+        - `git remote set-url origin git@github.com/<Username>:<Project>.git` I used this because when I cloned the repo earlier it was through https and caused errors with SSH. I should have used `git clone git@github.com:<Username>:<Project>.git`
         - `git commit -m "gitignore file."` to commit this updated gitignorefile, but Git asked me to confirm my author identity
         - `git config --global user.email "you@example.com"` to set my account's default email address
         - `git config --global user.name "Your Name"` to set my account's default username
