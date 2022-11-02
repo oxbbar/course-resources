@@ -1,10 +1,5 @@
 # Online Courses and General Learning
 
-In this readme you will find:
-- [Online courses I've completed/am completing](#courses)
-  - Links to them
-  - My data
-
 - [Broad Documentation and Tutorials](#broad-resources-and-guides)
   - Websites
   - Documentation
@@ -17,21 +12,6 @@ In this readme you will find:
 - [How I set up my workspaces](#software-and-setup)
   - Software, environments and packages
   - Basic commands and brief explanations
-
-## Courses
-
-- [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics) //
-[My Data](https://github.com/oxbar/course-online-general/tree/main/google-data-analytics-professional-certificate)
-  - SQL, R, Tableau
-  
-- [Google IT Automation with Python Professional Certificate](https://www.coursera.org/professional-certificates/google-it-automation) // 
-[My Data](https://github.com/oxbar/course-online-general/tree/main/google-it-automation-with-python-professional-certificate)
-  
-- [IBM Data Analyst Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-analyst) // 
-[My Data](https://github.com/oxbar/course-online-general/tree/main/ibm-data-analyst-professional-certificate)
-   
-- [Data Science Fundamentals with Python and SQL Specialization](https://www.coursera.org/specializations/data-science-fundamentals-python-sql) // 
-[My Data](https://github.com/oxbar/course-online-general/tree/main/data-science-fundamentals-with-python-and-sql-specialization)
 
 ## Broad Resources and Guides
 
