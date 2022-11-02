@@ -66,6 +66,7 @@ In this readme you will find:
 - [YouTube - "What is Git? Explained in 2 Minutes!"](https://www.youtube.com/watch?v=2ReR1YJrNOM)
 - [YouTube - "Git, GitHub, & GitHub Desktop for beginners"](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
 - [YouTube - "How to install Git on Windows 10 | Updated 2022"](https://www.youtube.com/watch?v=cJTXh7g-uCM)
+- [YouTube - "Git Installation On Windows"](https://www.youtube.com/watch?v=2j7fD92g-gE)
 - [How to Use GitHub Desktop: A GitHub Desktop Tutorial](https://www.simplilearn.com/how-to-use-github-desktop-tutorial-article)
 - [GitHub Skills](https://skills.github.com/)
 - [YouTube - "GitHub Profile Readme"](https://www.youtube.com/watch?v=KhGWbt1dAKQ)
@@ -122,24 +123,31 @@ The software I'm using and how I set up to kick it all off.
 
 - [Git](https://git-scm.com/)
     - A version control system used to track changes in code and sync local versions with centralised repositories.
-        - `touch .gitignore` to create the .gitignore file
-        - `git status` to check which files will/won't be committed, then manually add .ipynb_checkpoints to .gitignore to avoid Jupyter checkpoint files being pushed to the remote repository
-        - `git add .gitignore` to add .gitignore to the list of files to be committed
-        - `git add README.md` to add this updated readme file
-        - `git add insertfilehere` to add other files to the list of files to be committed
-    - At this stage, Git is ready to commit the changes and push them. I had planned on using GitHub Desktop for everything, but wanted to at least succeed at creating, adding, testing and using a SSH key to push commits, rather than logging in.
-        - `git config --list` to see that no user.name or user.email are currently in the configuration
-        - `ls -al ~/.ssh` to see if any files exist in the SSH directory
-        - `ssh-keygen -t ed25519 "you@example.com"` to generate a SSH key for a specific email address, then choose a file name ("testfilename") and passphrase
-        - `eval $(ssh-agent -s)` to start the SSH agent
-        - `ssh-add ~/.ssh/testfilename` to add the SSH key file above to the SSH agent list
-        - `clip < ~/.ssh/testfilename` to copy the SSH key to the clipboard, then add it as a new SSH key in https://github.com/settings/keys
+        - `git mkdir git` to create a folder in my local user folder.
+        - 'cd dir' - to move to this folder.
+        - `git mkdir oxbar` to create a folder where repos for my account will go.
+        - `cd oxbar` to move to this folder.
+        - `git clone https://github.com/oxbar/course-resources` to make a clone of this repo locally. I then updated this readme with some information through github.com.
+        - `cd course-reosurces` to move to this repo.
+        - `git pull` to pull the latest version, which contains a readme file.
+        - If I use jupyter notebooks in this directory, a folder will be created with checkpoints that I don't want synced with the remote repo. So I need to ensure these are ignored.
+        - `touch .gitignore` to create the .gitignore file, then manually add .ipynb_checkpoints to .gitignore to avoid Jupyter checkpoint files being pushed to the remote repository.
+        - `git status` to see what changes will/will not be committed. 
+        - `git add .gitignore` to add .gitignore to the list of files to be committed. I will need to do this for each new repo that will use jupyter notebooks.
+        - At this stage, Git is ready to commit and push the changes to the remote repo. I had planned on using GitHub Desktop for everything, but wanted to at least succeed at creating, adding, testing and using a SSH key to push commits, rather than logging in.
+        - `git config --list` to see that no user.name or user.email are currently in the configuration.
+        - `ls -al ~/.ssh` to see if any files exist in the SSH directory.
+        - `ssh-keygen -t ed25519 -C "you@example.com"` to generate a SSH key for a specific email address, then choose a file name ("testfilename") and passphrase
+        - `eval $(ssh-agent -s)` to start the SSH agent.
+        - `ssh-add ~/.ssh/testfilename` to add the SSH key file above to the SSH agent list.
+        - `clip < ~/.ssh/testfilename.pub` to copy the SSH key to the clipboard, then add it as a new SSH key in https://github.com/settings/keys.
         - `ssh -T git@github.com` to authenticate with GitHub (check key fingerprint matches with https://docs.github.com/en/github/authenticating-to-github/githubs-ssh-key-fingerprints)
-        - `git commit -m "SSH commands."` to commit this updated readme file, but Git asked me to confirm my author identity
-        - `git config --global user.email "you@example.com"` - to set my account's default email address
-        - `git config --global user.name "Your Name"` - to set my account's default username
-        - `git commit -m "SSH commands."` to commit this updated readme file with account identification now present
-        - `git push"` to push the changes to the remote repository 
+        - `git remote set-url origin git@github.com/<Username>:<Project>.git
+        - `git commit -m "gitignore file."` to commit this updated gitignorefile, but Git asked me to confirm my author identity
+        - `git config --global user.email "you@example.com"` to set my account's default email address
+        - `git config --global user.name "Your Name"` to set my account's default username
+        - `git commit -m "gitignore file."` to commit this updated gitignore file with account identification now present.
+        - `git push"` to push the changes to the remote repository.
     
 - [GitHub Desktop](https://desktop.github.com/)
     - An application to interact with GitHub via a GUI. 
