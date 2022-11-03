@@ -22,6 +22,12 @@
 - [Atlassian - Getting Git Right](https://www.atlassian.com/git)
 - [Javatpoint - GitHub Tutorial](https://www.javatpoint.com/github)
 - [git/github guide, a minimal tutorial - Karl Broman](https://kbroman.org/github_tutorial/)
+- [GitHub Pages](https://pages.github.com/)
+
+### Kaggle
+
+-[How to Use Kaggle](How to Use Kaggle)
+-[Kaggle Datasets](https://www.kaggle.com/datasets)
 
 ### Conda / Virtual Environments
 
@@ -37,6 +43,8 @@
 - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/index.html)
 - [Tidyverse.org](https://www.tidyverse.org/)
 - [Statistics Globe - Learn R Programming](https://statisticsglobe.com/r-programming-language)
+- [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+- [ggplot2](https://ggplot2.tidyverse.org/)
 
 ## Specific Resources and Guides
 
@@ -56,6 +64,13 @@
 - [Connect with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
 - [YouTube - "How-To Setup SSH Keys for GitHub Using GitBash (+Bonus Tips)"](https://www.youtube.com/watch?v=6e3LCcpjqpc)
 - [Git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+- [YouTube - "What is GitHub Pages?"](https://www.youtube.com/watch?v=2MsN8gpT6jY)
+- [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+- [YouTube - "Getting Started with GitHub Pages"](https://www.youtube.com/watch?v=QyFcl_Fba-k)
+
+### Kaggle
+
+- [How to Enter a Kaggle Competition (using Kernels) | Kaggle](https://www.youtube.com/watch?v=GJBOMWpLpTQ)
 
 ### Conda / Virtual Environments
 
@@ -74,7 +89,7 @@
 
 ### R
 
-- 
+-
 
 ### SQL
 
