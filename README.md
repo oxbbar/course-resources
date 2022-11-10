@@ -27,7 +27,7 @@
 ### Kaggle
 
 -[How to Use Kaggle](https://www.kaggle.com/docs)
--[Kaggle Datasets](https://www.kaggle.com/datasets)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
 
 ### Conda / Virtual Environments
 
