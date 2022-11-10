@@ -119,7 +119,7 @@ The software I'm using and how I set up to kick it all off.
 - [Git](https://git-scm.com/)
     - A version control system used to track changes in code and sync local versions with centralised repositories.
         - `git mkdir git` to create a folder in my local user folder.
-        - 'cd dir' - to move to this folder.
+        - `cd dir` - to move to this folder.
         - `git mkdir oxbbar` to create a folder where repos for my account will go.
         - `cd oxbbar` to move to this folder.
         - `git clone https://github.com/oxbbar/course-resources` to make a clone of this repo locally. I then updated this readme with some information through github.com.
