@@ -123,7 +123,7 @@ The software I'm using and how I set up to kick it all off.
         - `git mkdir oxbbar` to create a folder where repos for my account will go.
         - `cd oxbbar` to move to this folder.
         - `git clone https://github.com/oxbbar/course-resources` to make a clone of this repo locally. I then updated this readme with some information through github.com.
-        - `cd course-reosurces` to move to this repo.
+        - `cd course-resources` to move to this repo.
         - `git pull` to pull the latest version, which contains a readme file.
         - If I use jupyter notebooks in this directory, a folder will be created with checkpoints that I don't want synced with the remote repo. So I need to ensure these are ignored.
         - `touch .gitignore` to create the .gitignore file, then manually add .ipynb_checkpoints to .gitignore to avoid Jupyter checkpoint files being pushed to the remote repository.
@@ -142,7 +142,7 @@ The software I'm using and how I set up to kick it all off.
         - `git config --global user.email "you@example.com"` to set my account's default email address
         - `git config --global user.name "Your Name"` to set my account's default username
         - `git commit -m "gitignore file."` to commit this updated gitignore file with account identification now present.
-        - `git push"` to push the changes to the remote repository.
+        - `git push` to push the changes to the remote repository.
     
 - [GitHub Desktop](https://desktop.github.com/)
     - An application to interact with GitHub via a GUI. 
