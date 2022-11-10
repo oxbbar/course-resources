@@ -26,7 +26,7 @@
 
 ### Kaggle
 
--[How to Use Kaggle](How to Use Kaggle)
+-[How to Use Kaggle](https://www.kaggle.com/docs)
 -[Kaggle Datasets](https://www.kaggle.com/datasets)
 
 ### Conda / Virtual Environments
@@ -120,9 +120,9 @@ The software I'm using and how I set up to kick it all off.
     - A version control system used to track changes in code and sync local versions with centralised repositories.
         - `git mkdir git` to create a folder in my local user folder.
         - 'cd dir' - to move to this folder.
-        - `git mkdir oxbar` to create a folder where repos for my account will go.
-        - `cd oxbar` to move to this folder.
-        - `git clone https://github.com/oxbar/course-resources` to make a clone of this repo locally. I then updated this readme with some information through github.com.
+        - `git mkdir oxbbar` to create a folder where repos for my account will go.
+        - `cd oxbbar` to move to this folder.
+        - `git clone https://github.com/oxbbar/course-resources` to make a clone of this repo locally. I then updated this readme with some information through github.com.
         - `cd course-reosurces` to move to this repo.
         - `git pull` to pull the latest version, which contains a readme file.
         - If I use jupyter notebooks in this directory, a folder will be created with checkpoints that I don't want synced with the remote repo. So I need to ensure these are ignored.
