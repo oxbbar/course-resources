@@ -148,3 +148,7 @@ The software I'm using and how I set up to kick it all off.
     - An application to interact with GitHub via a GUI. 
     - I wanted to use both Git Bash and GitHub Desktop to understand the processes.
         - Repository >> Repository settings... >> Ignored files (replicates the above process)
+
+- [RStudio Desktop](https://posit.co/download/rstudio-desktop/]
+    - A desktop application for the RStudio IDE.
+    - Requires [R](https://cran.rstudio.com/) to be installed first.
