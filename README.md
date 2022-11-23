@@ -152,3 +152,9 @@ The software I'm using and how I set up to kick it all off.
 - [RStudio Desktop](https://posit.co/download/rstudio-desktop/)
     - A desktop application for the RStudio IDE.
     - Requires [R](https://cran.rstudio.com/) to be installed first.
+    
+- [Visual Studio Code](https://code.visualstudio.com/)
+    - A streamlined code editor that allows a wide range of languages to be used.
+
+- [Pycharm](https://www.jetbrains.com/pycharm/)
+    - A dedicated Python Integrated Development Environment.
