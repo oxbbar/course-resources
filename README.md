@@ -29,6 +29,21 @@
 - [How to Use Kaggle](https://www.kaggle.com/docs)
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
 
+### Other Data Sets
+
+- [Google Dataset Search](https://datasetsearch.research.google.com/)
+- [data.world](https://data.world/)
+- [data.gov](https://data.gov/)
+- [data.gov.au](https://data.gov.au/)
+- [Datahub.io](https://datahub.io/collections)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets.php)
+- [Earth Data](https://earthdata.nasa.gov/)
+- [CERN Open Data Portal](http://opendata.cern.ch/)
+- [Global Health Observatory Data Repository](https://apps.who.int/gho/data/node.home)
+- [BFI film industry statistics](https://www.bfi.org.uk/education-research/film-industry-statistics-research)
+- [NYC Taxi Trip Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+- [FBI Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/)
+
 ### Conda / Virtual Environments
 
 - [Conda Documentation](https://docs.conda.io/projects/conda/en/latest/index.html)
@@ -36,6 +51,11 @@
 ### JupyterLabs
 
 - [Jupyter Project Documentation](https://docs.jupyter.org/en/latest/)
+
+### Python
+
+- [Python 3 Documentation](https://docs.python.org/3/)
+- [NumPy v1.14 Manual](https://docs.scipy.org/doc/numpy-1.14.0/index.html)
 
 ### R
 
@@ -45,6 +65,19 @@
 - [Statistics Globe - Learn R Programming](https://statisticsglobe.com/r-programming-language)
 - [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 - [ggplot2](https://ggplot2.tidyverse.org/)
+
+### SQL
+
+- 
+
+### Tableau
+
+- 
+
+### Power BI
+
+- 
+
 
 ## Specific Resources and Guides
 
@@ -70,7 +103,7 @@
 
 ### Kaggle
 
-- [How to Enter a Kaggle Competition (using Kernels) | Kaggle](https://www.youtube.com/watch?v=GJBOMWpLpTQ)
+- [YouTube - "How to Enter a Kaggle Competition (using Kernels) | Kaggle"](https://www.youtube.com/watch?v=GJBOMWpLpTQ)
 
 ### Conda / Virtual Environments
 
@@ -85,7 +118,8 @@
 
 ### Python
 
-- 
+- [Reddit - "Detailed Python developer roadmap"](https://www.reddit.com/r/Python/comments/z3gntf/detailed_python_developer_roadmap/)
+- [LeetCode - Easy Problems](https://leetcode.com/problemset/all/?difficulty=EASY&page=1&status=NOT_STARTED)
 
 ### R
 
@@ -158,3 +192,8 @@ The software I'm using and how I set up to kick it all off.
 
 - [Pycharm](https://www.jetbrains.com/pycharm/)
     - A dedicated Python Integrated Development Environment.
+    
+- [GitKraken](https://www.gitkraken.com/)
+    - Git GUI & Git CLI
+        - Choosing to use this over GitHub Desktop as it still has the CLI
+        
