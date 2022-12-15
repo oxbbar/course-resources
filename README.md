@@ -3,6 +3,7 @@
 - [Broad Documentation and Tutorials](#broad-resources-and-guides)
   - Websites
   - Documentation
+  - Datasets
   
 - [Specific resources I've found really helpful while learning](#specific-resources-and-guides)
   - Websites
@@ -29,7 +30,7 @@
 - [How to Use Kaggle](https://www.kaggle.com/docs)
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
 
-### Other Data Sets
+### Other Datasets
 
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 - [data.world](https://data.world/)
@@ -68,7 +69,10 @@
 
 ### SQL
 
-- 
+- [SQL Style Guide](https://www.sqlstyle.guide/)
+- [PostgresSQL Documentation](https://www.postgresql.org/docs/)
+- [Introducing SQLite](http://sqlite.awardspace.info/syntax/sqlitepg01.htm)
+- [Command Line Shell For SQLite](https://www.sqlite.org/cli.html)
 
 ### Tableau
 
@@ -127,6 +131,9 @@
 
 ### SQL
 
+- [SQLite vs MySQL vs PostgreSQL: A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+- [How to Install SQLite on Windows 10, 2016, 2019, 2022 (SQLite3)](https://cloudinfrastructureservices.co.uk/how-to-install-sqlite-on-windows-10-2016-2019-2022-sqlite3/)
+- [Here's How to Run SQL in Jupyter Notebooks](https://towardsdatascience.com/heres-how-to-run-sql-in-jupyter-notebooks-f26eb90f3259)
 - 
 
 ### Tableau
@@ -197,3 +204,11 @@ The software I'm using and how I set up to kick it all off.
     - Git GUI & Git CLI
         - Choosing to use this over GitHub Desktop as it still has the CLI
         
+- [SQLite](https://www.sqlite.org/download.html)
+    - A RDBMS that interacts with databases.
+
+- [PostgreSQL](https://www.postgresql.org/download/)
+    - A RDBMS that interacts with databases.
+    
+- [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
+    - A visual took to create, design and edit database files compatible with SQLite.
