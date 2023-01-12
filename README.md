@@ -212,3 +212,6 @@ The software I'm using and how I set up to kick it all off.
     
 - [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
     - A visual took to create, design and edit database files compatible with SQLite.
+    
+- [Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+    - Interactive data visualization software.
